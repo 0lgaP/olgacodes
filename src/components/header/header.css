@@ -1,0 +1,84 @@
+header {
+  height: 100%;
+  padding-top: 2rem;
+  overflow: hidden;
+}
+
+.header__container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+.header__down-arrow {
+  position: relative;
+  top: 3px;
+}
+
+/* CTA */
+.cta__container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.cta {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+/* Header Socials */
+.header__socials {
+  font-size: 3rem;
+}
+
+.header__socials::after {
+  content: "";
+  width: 2px;
+  height: 2rem;
+  background-color: var(--color-primary);
+  font-size: x-large;
+}
+
+/* ---------------- Media Queries (Med Devices) ---------------- */
+@media screen and (max-width: 1024px) {
+  .cta__container {
+    display: column;
+  }
+
+  .me {
+    width: 20rem;
+    height: 35rem;
+    left: calc(50% - 10rem);
+    border-radius: 12rem 12rem 0 0;
+  }
+}
+
+/* ---------------- Media Queries (Small Devices) ---------------- */
+@media screen and (max-width: 600px) {
+  /* header {
+    height: 100vh;
+  } */
+
+  /* .header__socials,
+  .scroll__down {
+    display: none;
+  } */
+
+  .me {
+    width: 20rem;
+    height: 28rem;
+    left: calc(50% - 10rem);
+    border-radius: 12rem 12rem 0 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cta__container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+}
