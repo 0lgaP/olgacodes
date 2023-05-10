@@ -9,7 +9,7 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        {data.map(({ id, img, title, description, github }) => {
+        {data.map(({ id, img, title, description, github, site }) => {
           return (
             <article key={id} className="portfolio__item">
               <div>
@@ -26,7 +26,7 @@ const Portfolio = () => {
                 >
                   <BsGithub className="portfolio__item-icon" /> Code{" "}
                 </a>
-                {/* { site ? <a href={site} className='btn btn-primary' target='_blank' rel="noreferrer"> Live </a> : ''} */}
+                { site ? <a href={site} className='btn btn-primary' target='_blank' rel="noreferrer"> Live </a> : ''}
               </div>
             </article>
           );
