@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.2c0bdde4.css",
-    "main.js": "/static/js/main.037f1902.js",
-    "static/css/428.960aa9b3.chunk.css": "/static/css/428.960aa9b3.chunk.css",
-    "static/js/428.aff12c68.chunk.js": "/static/js/428.aff12c68.chunk.js",
+    "main.js": "/static/js/main.e0a2dd19.js",
+    "static/css/105.7d58a21a.chunk.css": "/static/css/105.7d58a21a.chunk.css",
+    "static/js/105.6dc4bf08.chunk.js": "/static/js/105.6dc4bf08.chunk.js",
     "static/media/img_dragon.jpg": "/static/media/img_dragon.0e1a529277671b0f4a03.jpg",
     "static/media/img_pbm.jpg": "/static/media/img_pbm.d7c8f55e000d737c1a6b.jpg",
     "static/media/img_jungle.jpg": "/static/media/img_jungle.ca19d3c2ea661c9d4821.jpg",
@@ -12,16 +12,15 @@
     "static/media/img_tweeter.jpg": "/static/media/img_tweeter.fbd3e78c2e7ab62252db.jpg",
     "static/media/img_scheduler.jpg": "/static/media/img_scheduler.ff60b5ca740c9f48ce97.jpg",
     "static/media/olgaPerronResume.pdf": "/static/media/olgaPerronResume.07813810250200774d5e.pdf",
-    "static/media/img_dash.png": "/static/media/img_dash.1d0e0b27a4d601687b86.png",
     "static/media/bluehair.png": "/static/media/bluehair.2f25ea0f13611fec06a2.png",
     "index.html": "/index.html",
     "main.2c0bdde4.css.map": "/static/css/main.2c0bdde4.css.map",
-    "main.037f1902.js.map": "/static/js/main.037f1902.js.map",
-    "428.960aa9b3.chunk.css.map": "/static/css/428.960aa9b3.chunk.css.map",
-    "428.aff12c68.chunk.js.map": "/static/js/428.aff12c68.chunk.js.map"
+    "main.e0a2dd19.js.map": "/static/js/main.e0a2dd19.js.map",
+    "105.7d58a21a.chunk.css.map": "/static/css/105.7d58a21a.chunk.css.map",
+    "105.6dc4bf08.chunk.js.map": "/static/js/105.6dc4bf08.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2c0bdde4.css",
-    "static/js/main.037f1902.js"
+    "static/js/main.e0a2dd19.js"
   ]
 }
