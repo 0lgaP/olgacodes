@@ -3,19 +3,19 @@ import jungle from "../../assets/img_jungle.jpg"
 import pbm from "../../assets/img_pbm.jpg"
 import schedule from "../../assets/img_scheduler.jpg"
 import tweet from "../../assets/img_tweeter.jpg"
-import dash from "../../assets/img_dash.png"
+// import dash from "../../assets/img_dash.png"
 
 export const data = [
-  {
-    id: 6,
-    img: dash,
-    gif: "https://i.imgur.com/GGbyYEA.gif",
-    title: 'Dash',
-    description: `Dash is responsive and adapts to your screen. The layout, front-end functionality and animations were built using React and Firebase.`,
-    github: 'https://github.com/0lgaP/good-merning/tree/main/FirebaseCourse/olganization',
-    site: 'https://dash-1fdb7.web.app/login'
+  // {
+  //   id: 6,
+  //   img: dash,
+  //   gif: "https://i.imgur.com/GGbyYEA.gif",
+  //   title: 'Dash',
+  //   description: `Dash is responsive and adapts to your screen. The layout, front-end functionality and animations were built using React and Firebase.`,
+  //   github: 'https://github.com/0lgaP/good-merning/tree/main/FirebaseCourse/olganization',
+  //   site: 'https://dash-1fdb7.web.app/login'
 
-  },
+  // },
   {
     id: 1,
     img: tweet,
