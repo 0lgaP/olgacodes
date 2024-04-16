@@ -12,9 +12,6 @@ const App = () => {
   return (
     <>
       <Header />
-      <Nav />
-      <Experience />
-      <Services />
       <Suspense fallback={"..."}>
         <Portfolio />
       </Suspense>

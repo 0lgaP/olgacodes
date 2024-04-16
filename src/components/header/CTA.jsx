@@ -1,8 +1,8 @@
 import React from "react";
-import Resume from "../../assets/olgaPerronResume.pdf";
+import Resume from "../../assets/CV Olga Perron.pdf";
 import "./header.css";
-import { BsLinkedin, BsGithub } from "react-icons/bs";
-
+import { BsInstagram } from "react-icons/bs";
+import { FaXTwitter } from "react-icons/fa6";
 const CTA = () => {
   return (
     <div className="cta__container">
@@ -16,20 +16,20 @@ const CTA = () => {
       </div>
       <div className="cta">
         <a
-          href="https://www.linkedin.com/in/olga-perron-41566947/"
+          href="https://www.instagram.com/alientoronto/"
           target="_blank"
           rel="noreferrer"
-          aria-label="LinkedIn"
+          aria-label="new tab Instagram"
         >
-          <BsLinkedin className="header__socials" />
+          <BsInstagram className="header__socials" />
         </a>
         <a
-          href="https://github.com/0lgaP"
+          href="https://twitter.com/0lgatron"
           target="_blank"
           rel="noreferrer"
-          aria-label="Github"
+          aria-label="new tab to x formally twitter"
         >
-          <BsGithub className="header__socials" />
+          <FaXTwitter className="header__socials" />
         </a>
       </div>
     </div>

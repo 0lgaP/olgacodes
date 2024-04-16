@@ -17,17 +17,6 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <small className="portfolio__item-desc">{description}</small>
-              <div className="portfolio__item-cta">
-                <a
-                  href={github}
-                  className="btn btn-primary"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <BsGithub className="portfolio__item-icon" /> Code{" "}
-                </a>
-                { site ? <a href={site} className='btn btn-primary' target='_blank' rel="noreferrer"> Live </a> : ''}
-              </div>
             </article>
           );
         })}

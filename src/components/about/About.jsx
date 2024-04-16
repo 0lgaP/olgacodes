@@ -21,7 +21,9 @@ const About = () => {
         </div>
         <div className="about__content">
           <p>
-          My background in developing and deploying public programs helps me communicate effectively and accurately ascertain client needs. I am a creative problem solver and take care to write clean modular code. I aim to deliver products that put user experience at the forefront.
+          Howdy ya’ll, 
+I am AlienToronto, an artist specializing in acrylic paintings which inspect the Toronto-coded similarities between mundane and cosmic. I'm looking to paint up your wall, garage or fence real nice! This summer I am looking to take my art to the public, and if you are here  score I'm nailing it so far!
+
           </p>
         </div>
       </div>

@@ -11,14 +11,14 @@
 }
 /* css variable declerarion */
 :root {
-  --color-bg: rgb(47, 40, 70);
-  --color-bg-variant: rgb(84, 69, 129);
-  --color-primary: rgb(108, 205, 185);
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
-  --color-white: rgb(233, 222, 132);
+  --color-bg: rgb(177, 60, 147);
+  --color-bg-variant: rgba(56, 17, 173, 0.637);
+  --color-primary: rgba(255, 230, 8, 0.733);
+  --color-primary-variant: rgba(255, 255, 255, 0.452);
+  --color-white: rgb(219, 180, 106);
   --color-light: rgba(255, 255, 255, 0.6);
-  --color-hilight: rgb(109, 205, 219);
-  --color-lolight: rgb(36, 68, 73);
+  --color-hilight: rgb(10, 208, 238);
+  --color-lolight: rgb(57, 4, 100);
 
   --transition: all 400ms ease;
 
